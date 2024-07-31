@@ -1,22 +1,15 @@
 import React from "react";
 
+import Menu from './module/Menu/Menu'
+
 import "./App.css";
 
-const recipes = [
-  {
-    author: "Jim",
-    name: "Chicken Curry",
-    description: "Delicious spicy chicken curry",
-  },
-  {
-    author: "Aravind",
-    name: "Hamburger",
-    description: "Juicy burger with toppings and a soft bun",
-  },
-];
-
 function App() {
-  return <div className="App">Let's add some content here</div>;
+  return (
+    <div className="app-wrapper">
+      <Menu />
+    </div>
+  );
 }
 
 export default App;
