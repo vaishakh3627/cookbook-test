@@ -1,0 +1,34 @@
+@import "./components/recipe_card";
+
+.recipe-container-wrapper {
+  .recipe-container-row {
+    .recipe-column {
+      padding-right: 3px !important;
+      .recipe-card {
+        height: 90vh !important;
+        background-color: #f8f9fa;
+        .recipe-card-header {
+          text-align: center;
+          text-transform: uppercase;
+          padding: 17px;
+          h1 {
+            font-size: 20px;
+            margin: 0px;
+          }
+        }
+      }
+    }
+    .recipe-details-column {
+      padding-left: 3px !important;
+      background-color: #ffffff;
+      .recipe-details-card {
+        height: 90vh !important;
+      }
+    }
+    .recipe-card,
+    .recipe-details-card {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      border: 1px solid #ddd;
+    }
+  }
+}
