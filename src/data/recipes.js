@@ -197,9 +197,9 @@ export const recipes = [
   },
   {
     id: 7,
-    name: "Omlet",
+    name: "Omelettt",
     short_description:
-      "An omelet is made from beaten eggs, cooked and filled with cheese, vegetables, or meat. Quick and tasty!",
+      "An omelettte is made from beaten eggs, cooked and filled with cheese, vegetables, or meat. Quick and tasty!",
     img: Omlet,
     incrediants: [
       "Eggs",
@@ -224,7 +224,7 @@ export const recipes = [
       "Serve immediately and enjoy your delicious omelet!",
     ],
     description:
-      "An omelet is a versatile and delicious dish made from beaten eggs cooked until set. It's often filled with a variety of ingredients like cheese, vegetables, and meats. Perfect for breakfast or brunch, it’s quick to prepare and customizable to your taste.",
+      "An omelette is a versatile and delicious dish made from beaten eggs cooked until set. It's often filled with a variety of ingredients like cheese, vegetables, and meats. Perfect for breakfast or brunch, it’s quick to prepare and customizable to your taste.",
   },
   {
     id: 8,

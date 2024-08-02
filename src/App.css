@@ -1,3 +1,4 @@
+@import "./assets//scss/variable.css";
 .App {
   text-align: center;
 }
@@ -42,5 +43,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: var(--project-background-color) !important;
 }

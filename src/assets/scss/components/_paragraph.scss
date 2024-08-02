@@ -1,8 +1,13 @@
 .recipe-description-column {
   h1 {
     font-size: 23px;
+    color: var(--details-sub-heading) !important;
   }
   p {
     font-size: 15px;
+    color: #FFFFFF;
+  }
+  li{
+    color: #FFFFFF;
   }
 }

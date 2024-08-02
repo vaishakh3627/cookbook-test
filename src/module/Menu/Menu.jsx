@@ -27,12 +27,13 @@ function Menu() {
                     key={key}
                     item={item}
                     onClick={handleSelectRecipe}
+                    active={selectedRecipe?.id === item?.id}
                   />
                 ))}
             </Card.Body>
           </Card>
         </Col>
-        <Col md={7} className="recipe-details-column">
+        <Col md={7} className="recipe-details-column pe-0">
           <Card className="recipe-details-card">
             <RecipeDetails item={selectedRecipe} />
           </Card>

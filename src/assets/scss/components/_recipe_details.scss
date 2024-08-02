@@ -16,6 +16,7 @@
         height: 100%;
         object-fit: cover;
         border-radius: 8px;
+        border: 1px solid #FFD700 !important;
       }
     }
   }
@@ -25,11 +26,19 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    h2{
-      font-size: 19px;
+    h1 {
+      color: var(--details-main-heading) !important;
     }
-    li{
+    h2 {
+      font-size: 19px;
+      color: var(--details-sub-heading) !important;
+    }
+    p{
+      color: white;
+    }
+    li {
       font-size: 14px;
+      color: #FFD700;
     }
   }
 }

@@ -54,6 +54,7 @@
       font-size: 14px;
       margin: 0px;
       margin-top: 8px;
+      color: var(--project-font-color);
     }
   }
   .recipe-icon-wrapper {
@@ -66,12 +67,19 @@
 }
 
 .recipe-card-container:hover {
-  background-color: #f0f0f0;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
   transform: translateY(-1px);
   border-radius: 4px;
 }
 
-.menu-card-wrapper{
+.menu-card-wrapper {
   cursor: pointer;
+}
+
+.selected-menu {
+  background-color: var(--selected-menu-background-color) !important;
+  color: var(--selected-menu-heading-color) !important;
+  p {
+    color: var(--selected-menu-content-color) !important;
+  }
 }
