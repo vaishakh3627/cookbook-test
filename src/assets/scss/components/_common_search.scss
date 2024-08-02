@@ -1,0 +1,19 @@
+.common-serach {
+  position: relative;
+  margin-right: 10px;
+  .search-input {
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
+    padding-left: 25px;
+  }
+  .search-box-icon {
+    position: relative;
+    top: 18px;
+    left: 8px;
+  }
+  .search-box-close-btn-container {
+    position: relative;
+    bottom: 27px;
+    left: 212px;
+  }
+}

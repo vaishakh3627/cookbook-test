@@ -4,6 +4,7 @@ import RecipeCard from "../../components/recipe-card/RecipeCard";
 
 import { recipes } from "../../data/recipes";
 import RecipeDetails from "../../components/recipe-details/RecipeDetails";
+import CommonSearch from "../../components/common-search/CommonSearch";
 
 function Menu() {
   const [selectedRecipe, setSelectedRecipe] = useState(recipes?.[0]);
@@ -17,8 +18,9 @@ function Menu() {
       <Row className="recipe-container-row">
         <Col md={5} className="recipe-column">
           <Card className="recipe-card">
-            <Card.Header className="recipe-card-header">
+            <Card.Header className="recipe-card-header w-100">
               <h1>Recipe</h1>
+              <CommonSearch />
             </Card.Header>
             <Card.Body>
               {recipes?.length > 0 &&
