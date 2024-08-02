@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 
 import Paragraph from "../paragraph/Paragraph";
+import MoreImage from "../more-image/MoreImage";
 
 function RecipeDetails({ item }) {
   return (
@@ -24,8 +25,13 @@ function RecipeDetails({ item }) {
           </ul>
         </Col>
       </Row>
-      <Paragraph title={"Description"} content={item?.description} className={"mt-3"} />
+      <Paragraph
+        title={"Description"}
+        content={item?.description}
+        className={"mt-3"}
+      />
       <Paragraph title={"Recipe"} array={item?.recipe} />
+      <MoreImage moreImage={item?.media ?? []} />
     </Container>
   );
 }

@@ -7,6 +7,12 @@ import ClubSandwich from "../assets/img/club-sandwich.jpg";
 import ChickenMandi from "../assets/img/mandi.jpg";
 import GrillChicken from "../assets/img/grill-chicken.jpg";
 import FriedChicken from "../assets/img/fried-chicken.jpg";
+import BurgerFirst from "../assets/img/burger-one.jpg";
+import Club1 from "../assets/img/club-sandwich-1.jpg";
+import Club2 from "../assets/img/club-sandwich-2.jpg";
+import Biriyani1 from "../assets/img/biriyani-1.jpg";
+import Grill1 from "../assets/img/grilled-checken-1.jpg";
+import Grill2 from "../assets/img/grilled-chicken-2.jpg";
 
 export const recipes = [
   {
@@ -37,8 +43,41 @@ export const recipes = [
       "Cut the sandwich into quarters diagonally and secure each quarter with toothpicks.",
       "Serve with your choice of side dishes like fries or a salad.",
     ],
+    media: [Club1, Club2, ClubSandwich],
     description:
       "A classic club sandwich is a hearty and satisfying meal featuring layers of crispy bacon, tender turkey or chicken, and fresh lettuce and tomato, all sandwiched between three slices of toasted bread. This savory delight is typically served with mayonnaise and often accompanied by a side of crispy fries or a pickle. Perfect for a quick lunch or a satisfying dinner, the club sandwich combines crispy, creamy, and savory elements for a timeless, delicious experience.",
+  },
+  {
+    id: 8,
+    name: "Grilled chicken",
+    short_description:
+      "Grilled chicken is marinated, then cooked on a grill. It's juicy, flavorful, and perfect for a healthy meal.",
+    img: GrillChicken,
+    incrediants: [
+      "Chicken breasts or thighs",
+      "Olive oil",
+      "Garlic (minced)",
+      "Lemon juice",
+      "Paprika",
+      "Cumin",
+      "Salt",
+      "Black pepper",
+    ],
+    recipe: [
+      "Marinate chicken breasts with olive oil, lemon juice, garlic, salt, pepper, and your choice of herbs or spices. Let it sit for at least 30 minutes.",
+      "Preheat your grill to medium-high heat.",
+      "Remove the chicken from the marinade and pat it dry with paper towels.",
+      "Oil the grill grates to prevent sticking.",
+      "Place the chicken on the grill and cook for about 6-8 minutes per side, depending on thickness.",
+      "Use a meat thermometer to ensure the internal temperature reaches 165°F (74°C).",
+      "Once cooked, remove the chicken from the grill and let it rest for 5 minutes.",
+      "Slice the chicken and check for seasoning. Adjust if needed.",
+      "Serve with your choice of sides and garnish as desired.",
+      "Enjoy your perfectly grilled chicken!",
+    ],
+    media: [Grill2, Grill1, GrillChicken],
+    description:
+      "Grilled chicken is a flavorful and healthy dish, cooked to perfection over an open flame or grill. The chicken is marinated in a blend of herbs, spices, and a touch of oil to enhance its natural juiciness and tenderness. As it grills, the exterior develops a deliciously crispy char, while the inside remains succulent and moist. This cooking method brings out the best in chicken, offering a smoky aroma and savory taste that pairs well with a variety of sides. Perfect for a balanced meal or a summer barbecue, grilled chicken is both satisfying and versatile.",
   },
   {
     id: 2,
@@ -68,6 +107,7 @@ export const recipes = [
       "Let the chicken rest for a few minutes before serving.",
       "Serve hot with your favorite sides and dipping sauces.",
     ],
+    media: [FriedChicken],
     description:
       "Crispy, golden-brown, and irresistibly juicy, our fried chicken is seasoned to perfection with a blend of spices and herbs. Each piece is coated in a light, crunchy batter, fried to a perfect crisp, and served hot for a mouthwatering, savory experience.",
   },
@@ -99,6 +139,7 @@ export const recipes = [
       "Cover the pot tightly and cook on low heat for 20-30 minutes to allow flavors to meld.",
       "Garnish with fried onions and fresh coriander before serving.",
     ],
+    media: [Biriyani1, Biriyani],
     description:
       "Biryani is a vibrant, aromatic rice dish bursting with flavors. Layers of fragrant basmati rice are cooked with tender marinated meat or vegetables, infused with spices like saffron, cardamom, and cloves. Garnished with fried onions and fresh herbs, it’s a delicious feast!",
   },
@@ -130,6 +171,7 @@ export const recipes = [
       "Top with the other half of the bun.",
       "Serve immediately with your favorite side dishes.",
     ],
+    media: [Burger, BurgerFirst],
     description:
       "Indulge in our juicy, flame-grilled burger, featuring a perfectly seasoned patty topped with crisp lettuce, ripe tomatoes, and pickles, all nestled between a freshly baked brioche bun. Enhanced with melted cheese and our signature sauce, it's a flavor-packed delight!",
   },
@@ -161,6 +203,7 @@ export const recipes = [
       "Season with salt and pepper to taste.",
       "Garnish with fresh cilantro and serve with rice or naan bread.",
     ],
+    media: [ChickenCurry],
     description:
       "Chicken curry is a flavorful dish featuring tender chicken pieces simmered in a rich, aromatic sauce. The sauce combines spices like turmeric, cumin, coriander, and garam masala with tomatoes, onions, and garlic, creating a savory and satisfying meal. Perfect with rice or naan.",
   },
@@ -192,6 +235,7 @@ export const recipes = [
       "Add the chopped chicken and top with vegetables like lettuce, tomatoes, and cucumbers.",
       "Roll up the pita bread or flatbread around the fillings and serve immediately.",
     ],
+    media: [Shawarma],
     description:
       "Shawarma is a vibrant dining spot offering a delicious array of Middle Eastern flavors. Specializing in authentic shawarma, this popular eatery serves up juicy, marinated meats wrapped in warm, fluffy pita bread or plated with fresh veggies and savory sauces. With a commitment to quality ingredients and excellent service, Club Shawarma provides a satisfying and flavorful experience for shawarma enthusiasts and newcomers alike. Enjoy a taste of tradition with every bite!",
   },
@@ -223,39 +267,9 @@ export const recipes = [
       "Slide the omelet onto a plate.",
       "Serve immediately and enjoy your delicious omelet!",
     ],
+    media: [Omlet],
     description:
       "An omelette is a versatile and delicious dish made from beaten eggs cooked until set. It's often filled with a variety of ingredients like cheese, vegetables, and meats. Perfect for breakfast or brunch, it’s quick to prepare and customizable to your taste.",
-  },
-  {
-    id: 8,
-    name: "Grilled chicken",
-    short_description:
-      "Grilled chicken is marinated, then cooked on a grill. It's juicy, flavorful, and perfect for a healthy meal.",
-    img: GrillChicken,
-    incrediants: [
-      "Chicken breasts or thighs",
-      "Olive oil",
-      "Garlic (minced)",
-      "Lemon juice",
-      "Paprika",
-      "Cumin",
-      "Salt",
-      "Black pepper",
-    ],
-    recipe: [
-      "Marinate chicken breasts with olive oil, lemon juice, garlic, salt, pepper, and your choice of herbs or spices. Let it sit for at least 30 minutes.",
-      "Preheat your grill to medium-high heat.",
-      "Remove the chicken from the marinade and pat it dry with paper towels.",
-      "Oil the grill grates to prevent sticking.",
-      "Place the chicken on the grill and cook for about 6-8 minutes per side, depending on thickness.",
-      "Use a meat thermometer to ensure the internal temperature reaches 165°F (74°C).",
-      "Once cooked, remove the chicken from the grill and let it rest for 5 minutes.",
-      "Slice the chicken and check for seasoning. Adjust if needed.",
-      "Serve with your choice of sides and garnish as desired.",
-      "Enjoy your perfectly grilled chicken!",
-    ],
-    description:
-      "Grilled chicken is a flavorful and healthy dish, cooked to perfection over an open flame or grill. The chicken is marinated in a blend of herbs, spices, and a touch of oil to enhance its natural juiciness and tenderness. As it grills, the exterior develops a deliciously crispy char, while the inside remains succulent and moist. This cooking method brings out the best in chicken, offering a smoky aroma and savory taste that pairs well with a variety of sides. Perfect for a balanced meal or a summer barbecue, grilled chicken is both satisfying and versatile.",
   },
   {
     id: 9,
@@ -285,6 +299,7 @@ export const recipes = [
       "Add basmati rice to the broth and cook according to package instructions.",
       "Shred the chicken and mix it back into the rice. Garnish with fresh herbs and serve.",
     ],
+    media: [ChickenMandi],
     description:
       "Chicken Mandi is a flavorful and aromatic Middle Eastern dish that features tender chicken slow-cooked with a blend of spices, rice, and vegetables. Originating from Yemen, this dish combines the rich flavors of saffron, cardamom, and cloves, resulting in a deliciously spiced and fragrant meal. The chicken is typically marinated and cooked with rice in a single pot, allowing the flavors to meld perfectly. Often garnished with nuts and fresh herbs, Chicken Mandi is a hearty and satisfying dish that's perfect for any occasion.",
   },
