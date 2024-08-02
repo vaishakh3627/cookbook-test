@@ -3,9 +3,9 @@
   --selected-menu-heading-color: #FFD700 !important;
   --selected-menu-content-color: #FFD700 !important;
   --project-font-color: #333333 !important;
-  --project-background-color: #2c2c2c !important;
+  --project-background-color: black !important;
   --menu-list-card-color: #1F1F1F !important;
   --menu-details-card-color: #1F1F1F !important;
-  --details-sub-heading: #C0C0C0 !important;
+  --details-sub-heading: #FFD700 !important;
   --details-main-heading: #FFD700 !important;
 }

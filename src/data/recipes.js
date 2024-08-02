@@ -197,7 +197,7 @@ export const recipes = [
   },
   {
     id: 7,
-    name: "Omelettt",
+    name: "Omelette",
     short_description:
       "An omelettte is made from beaten eggs, cooked and filled with cheese, vegetables, or meat. Quick and tasty!",
     img: Omlet,

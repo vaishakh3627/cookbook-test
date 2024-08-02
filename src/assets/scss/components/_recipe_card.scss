@@ -4,6 +4,7 @@
   column-gap: 8px;
   transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
   .recipe-card-wrapper {
+    background-color: #f4f4f9 !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,10 +71,12 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
   transform: translateY(-1px);
   border-radius: 4px;
+  background-color: white;
 }
 
 .menu-card-wrapper {
   cursor: pointer;
+  background-color: #cfcccc !important;
 }
 
 .selected-menu {
