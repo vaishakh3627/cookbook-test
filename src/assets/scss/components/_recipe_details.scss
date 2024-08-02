@@ -1,0 +1,35 @@
+.recipe-details-container {
+  padding: 20px;
+  .image-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .image-wrapper {
+      width: 100%;
+      padding-top: 100%;
+      position: relative;
+      .recipe-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+    }
+  }
+  .text-column {
+    padding-left: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    h2{
+      font-size: 19px;
+    }
+    li{
+      font-size: 14px;
+    }
+  }
+}

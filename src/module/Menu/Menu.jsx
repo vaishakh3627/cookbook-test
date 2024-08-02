@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import RecipeCard from "../../components/recipe-card/RecipeCard";
 
 import { recipes } from "../../data/recipes";
+import RecipeDetails from "../../components/recipe-details/RecipeDetails";
 
 function Menu() {
-  console.log(recipes)
+  const [selectedRecipe, setSelectedRecipe] = useState(recipes?.[0]);
+
+  const handleSelectRecipe = (item) => {
+    setSelectedRecipe(item);
+  };
+
   return (
     <Container className="recipe-container-wrapper">
       <Row className="recipe-container-row">
@@ -17,13 +23,19 @@ function Menu() {
             <Card.Body>
               {recipes?.length > 0 &&
                 recipes.map((item, key) => (
-                  <RecipeCard key={key} item={item} />
+                  <RecipeCard
+                    key={key}
+                    item={item}
+                    onClick={handleSelectRecipe}
+                  />
                 ))}
             </Card.Body>
           </Card>
         </Col>
         <Col md={7} className="recipe-details-column">
-          <Card className="recipe-details-card"></Card>
+          <Card className="recipe-details-card">
+            <RecipeDetails item={selectedRecipe} />
+          </Card>
         </Col>
       </Row>
     </Container>

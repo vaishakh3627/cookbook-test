@@ -3,9 +3,9 @@ import { Card, Image } from "react-bootstrap";
 
 import { MdKeyboardArrowRight } from "react-icons/md";
 
-function RecipeCard({ item }) {
+function RecipeCard({ item, onClick }) {
   return (
-    <Card className="mb-2">
+    <Card className="mb-2 menu-card-wrapper" onClick={() => onClick(item)}>
       <div className="recipe-card-container">
         <div className="recipe-card-wrapper">
           <div className="recipe-card-img">
