@@ -3,7 +3,7 @@
 .recipe-container-wrapper {
   .recipe-container-row {
     .recipe-column {
-      padding-right: 3px !important;
+      padding-right: 5px !important;
       .recipe-card {
         height: 90vh !important;
         background-color: #f8f9fa;
@@ -12,14 +12,14 @@
           text-transform: uppercase;
           padding: 17px;
           h1 {
-            font-size: 20px;
+            font-size: 30px;
             margin: 0px;
           }
         }
       }
     }
     .recipe-details-column {
-      padding-left: 3px !important;
+      padding-left: 5px !important;
       background-color: #ffffff;
       .recipe-details-card {
         height: 90vh !important;

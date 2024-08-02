@@ -1,14 +1,23 @@
 import React from "react";
 import { Card, Image } from "react-bootstrap";
 
-import Biriyani from "../../assets/img/image (5).png";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
-function RecipeCard() {
+function RecipeCard({ item }) {
   return (
-    <Card>
-      <div className="recipe-card-wrapper">
-        <div className="recipe-card-img">
-          <Image src={Biriyani} alt="Biriyani" height={100} width={100} />
+    <Card className="mb-2">
+      <div className="recipe-card-container">
+        <div className="recipe-card-wrapper">
+          <div className="recipe-card-img">
+            <Image src={item?.img} alt="image" height={100} width={100} />
+          </div>
+        </div>
+        <div className="recipe-content">
+          <h1>{item?.name}</h1>
+          <p>{item?.short_description}</p>
+        </div>
+        <div className="recipe-icon-wrapper">
+          <MdKeyboardArrowRight size={25} />
         </div>
       </div>
     </Card>
