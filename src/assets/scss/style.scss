@@ -12,12 +12,11 @@
         height: 90vh !important;
         background-color: var(--menu-list-card-color) !important;
         .recipe-card-header {
-          text-align: start;
           text-transform: uppercase;
           padding: 17px;
           display: flex;
           align-items: center;
-          justify-content: space-between;
+          justify-content: center;
           h1 {
             font-size: 30px;
             margin: 0px;
@@ -39,4 +38,8 @@
       border: 1px solid #ddd;
     }
   }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
