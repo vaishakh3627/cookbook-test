@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="app-wrapper">
+  {console.log("HI")}
       <Menu />
     </div>
   );
