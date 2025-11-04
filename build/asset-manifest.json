@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a2b09116.css",
-    "main.js": "/static/js/main.8859be63.js",
+    "main.js": "/static/js/main.6d8430d3.js",
     "static/media/omlet.jpg": "/static/media/omlet.5fbd619baeb8daa37e51.jpg",
     "static/media/club-sandwich-1.jpg": "/static/media/club-sandwich-1.3cd3425af31cd4e2f828.jpg",
     "static/media/fried-chicken.jpg": "/static/media/fried-chicken.5d2cd7a41b7652a11fdd.jpg",
@@ -19,10 +19,10 @@
     "static/media/burger-one.jpg": "/static/media/burger-one.f19a18c0d8be62a8da35.jpg",
     "index.html": "/index.html",
     "main.a2b09116.css.map": "/static/css/main.a2b09116.css.map",
-    "main.8859be63.js.map": "/static/js/main.8859be63.js.map"
+    "main.6d8430d3.js.map": "/static/js/main.6d8430d3.js.map"
   },
   "entrypoints": [
     "static/css/main.a2b09116.css",
-    "static/js/main.8859be63.js"
+    "static/js/main.6d8430d3.js"
   ]
 }
