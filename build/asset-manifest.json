@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2b09116.css",
+    "main.js": "/static/js/main.8859be63.js",
+    "static/media/omlet.jpg": "/static/media/omlet.5fbd619baeb8daa37e51.jpg",
+    "static/media/club-sandwich-1.jpg": "/static/media/club-sandwich-1.3cd3425af31cd4e2f828.jpg",
+    "static/media/fried-chicken.jpg": "/static/media/fried-chicken.5d2cd7a41b7652a11fdd.jpg",
+    "static/media/biriyani-1.jpg": "/static/media/biriyani-1.207e9e45e59a9f448f20.jpg",
+    "static/media/grilled-chicken-2.jpg": "/static/media/grilled-chicken-2.1864dc51c2e3aee2190b.jpg",
+    "static/media/club-sandwich-2.jpg": "/static/media/club-sandwich-2.14af427f5461017b4ebd.jpg",
+    "static/media/chicken-curry.jpg": "/static/media/chicken-curry.75e441681c44c0a4b3bb.jpg",
+    "static/media/grilled-checken-1.jpg": "/static/media/grilled-checken-1.5ccab5d04fbe3378df71.jpg",
+    "static/media/grill-chicken.jpg": "/static/media/grill-chicken.4526740df434d757adeb.jpg",
+    "static/media/club-sandwich.jpg": "/static/media/club-sandwich.b67212ea457f88a3705c.jpg",
+    "static/media/mandi.jpg": "/static/media/mandi.62a46e981a64cb01e73f.jpg",
+    "static/media/biriyani.jpg": "/static/media/biriyani.554bfed6e9f553fe6f6a.jpg",
+    "static/media/shawarma.jpg": "/static/media/shawarma.e4cfd30e3eaea355d691.jpg",
+    "static/media/burger.jpg": "/static/media/burger.8f60b2647cf7241500d1.jpg",
+    "static/media/burger-one.jpg": "/static/media/burger-one.f19a18c0d8be62a8da35.jpg",
+    "index.html": "/index.html",
+    "main.a2b09116.css.map": "/static/css/main.a2b09116.css.map",
+    "main.8859be63.js.map": "/static/js/main.8859be63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2b09116.css",
+    "static/js/main.8859be63.js"
+  ]
+}
